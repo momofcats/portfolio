@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,15 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
-
-    <!-- Put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
-
-    <!-- Required librarys -->
+    <title>Yuliya Khilko | Developer</title>
+    <meta name="keywords" content="Yuliya Khilko, javascript, React, Node.js, Express.js, MongoDb, BEM, Responsive" />
+    <meta name="description" content="Yuliya Khilko | Developer" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -33,12 +16,8 @@
     <script>
       ScrollReveal({ reset: false });
     </script>
-
-    <!-- Remove this script once you setup your custom portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
-
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
 
@@ -46,9 +25,9 @@
     <div id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Yuliya Khilko</span>
           <br />
-          I'm the Unknown Developer.
+          I'm a Front-end Web Developer
         </h1>
         <p class="hero-cta" class="load-hidden">
           <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
@@ -70,7 +49,7 @@
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="./assets/profile.jpg"
+                src="https://images.unsplash.com/photo-1531335773500-23410807365a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8c2VhdHRsZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
                 alt="Profile Image"
               />
             </div>
@@ -78,20 +57,16 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                earum dolor voluptatum consequatur blanditiis inventore debitis
-                fuga numquam voluptate architecto itaque molestiae.
+                I’m a MERN stack web developer with an unconventional background in biotech and chemical engineering. I enjoy building reusable and well maintained code and deconstruct and solve engineering problems.
+
+
               </p>
               <p class="about-wrapper__info-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                earum dolor voluptatum consequatur blanditiis inventore debitis
-                fuga numquam voluptate architecto itaque molestiae.
+                Seattle, WA
               </p>
               <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
-                  View Resume
+                <a target="_blank" class="cta-btn cta-btn--resume" href="src/assets/Yuliya_Khilko_Resume.pdf" download="Yuliya_Khilko_Resume.pdf">
+                  Download Resume
                 </a>
               </span>
             </div>
@@ -111,31 +86,43 @@
 
           <!-- Each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-5 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <h3 class="project-wrapper__text-title">News Explorer</h3>
                 <div>
+                  <div class="badge-container">
+                    <span class="badge bg-dark">Javascript</span>
+                    <span class="badge bg-dark">Node.js</span>
+                    <span class="badge bg-dark">Express.js</span>
+                    <span class="badge bg-dark">React.js</span>
+                    <span class="badge bg-dark">MongoDb</span>
+                  </div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    News explorer is a MERN stack application that fetches and displays articles from the News API. 
+                  </p>
+                  <p class="mb-4">
+                    After the users are authenticated, they are able to bookmark articles  and view on their profile page.
+                     
+                  </p>
+                  <p class="mb-4">
+                    This app was created with Create-React-App. The development process was done in 2-week agile sprints. The back-end is built in Node/Express.js and served on AWS(EC2) cloud server.
+                    User data, credentials, and saved articles are stored in MongoDb.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://momofcats.github.io/news-explorer-frontend/">
+                  See Demo
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/momofcats/news-explorer-frontend">
+                  <i class="fa fa-github"></i> Front-end 
+                </a> 
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/momofcats/news-explorer-api"><i class="fa fa-github"></i> Back-end </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-7 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a href="https://momofcats.github.io/news-explorer-frontend/" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/news_explorer.png" />
                   </div>
                 </a>
               </div>
@@ -145,31 +132,40 @@
 
           <!-- Each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-5 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <h3 class="project-wrapper__text-title">Around the U.S.</h3>
                 <div>
+                  <div class="badge-container">
+                    <span class="badge bg-dark">Javascript</span>
+                    <span class="badge bg-dark">Node.js</span>
+                    <span class="badge bg-dark">Express.js</span>
+                    <span class="badge bg-dark">React.js</span>
+                    <span class="badge bg-dark">MongoDb</span>
+                  </div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+                    Around the U.S. is an instagram-like content sharing app. This is a responsive single page React app with router navigation. Server side API is powered by Express.js server and hosted on Heroku. 
+                   
+               
+                </p>
+                <p class="mb-4"> The app features user profile registration and login. Authenticated users are redirected to the main page and are able to add pictures to the gallery and see the cards created by other users. Additionally the users can like/dislike or remove pictures.</p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://nostalgic-volhard-529f35.netlify.app/">
+                  See Demo
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/momofcats/react-around-auth"><i class="fa fa-github"></i>
+                  Front-end
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://nostalgic-volhard-529f35.netlify.app/"><i class="fa fa-github"></i>
+                  Back-end
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-7 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a href="https://nostalgic-volhard-529f35.netlify.app/" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/around_us.png" />
                   </div>
                 </a>
               </div>
@@ -179,31 +175,33 @@
 
           <!-- Each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-5 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <h3 class="project-wrapper__text-title">From Portland to Portland</h3>
                 <div>
+                  <div class="badge-container">
+                    <span class="badge bg-dark">HTML5</span>
+                    <span class="badge bg-dark">CSS</span>
+                  </div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    This is a landing page which I created during my web development training program.
+                    It demonstrates my proficiency in semantic HTML, CSS (flexbox, grid, animations) and BEM methodology and ability to create layouts from designs provided in Figma. The page is responsive and scales up to different screen resolutions.
+                    
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://momofcats.github.io/web_project_3/index.html">
+                  See Demo
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/momofcats/web_project_3">
+                  <i class="fa fa-github"></i> Front-end
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-7 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a href="https://momofcats.github.io/web_project_3/index.html" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/portland.png" />
                   </div>
                 </a>
               </div>
@@ -219,18 +217,12 @@
     <section id="contact">
       <div class="container">
         <h2 class="section-title">
-          Contact
+          Contact Me
         </h2>
         <div class="contact-wrapper">
           <p class="contact-wrapper__text">
-            [Put your call to action here]
+            <i class="fa fa-envelope" aria-hidden="true"> ykhilko@gmail.com</i>
           </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
         </div>
       </div>
     </section>
@@ -243,50 +235,14 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
+          <a href="https://www.linkedin.com/in/yuliya-khilko" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a href="#!" target="_blank">
+          <a href="http://www.github.com/momofcats" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
-
         <hr />
-
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2020 - Template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
-          </a>
-        </p>
-
-        <!-- Remove this paragraph once you setup your custom portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
-      </div>
     </footer>
     <!-- /END Footer Section -->
   </body>

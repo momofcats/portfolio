@@ -284,12 +284,12 @@ Go to `/src/template.html` and fill your information, they are 5 sections:
 
 Change the color theme of the website ( choose 2 colors to create a gradient ):
 
-Go to `src/styles/abstracts/_variables.scss` and only change the values on this classes `$main-color` and `$secondary-color` to your prefered HEX color
+Go to `src/styles/abstracts/_variables.scss` and only change the values on this classes `$main-color` and `$secondary` to your prefered HEX color
 
 ```scss
 // Default values
 $main-color: #02aab0;
-$secondary-color: #00cdac;
+$secondary: #00cdac;
 ```
 
 **NOTE**: I highly recommend to checkout gradients variations on [UI Gradient](https://uigradients.com/#BrightVault)

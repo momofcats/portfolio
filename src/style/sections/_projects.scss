@@ -4,6 +4,7 @@
   margin-top: -10rem;
   padding-top: 15rem;
 
+  
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
@@ -45,7 +46,7 @@
       }
 
       & p > a {
-        color: $secondary-color;
+        color: $secondary;
       }
     }
 
@@ -75,4 +76,10 @@
       }
     }
   }
+}
+.badge {
+  color: white;
+}
+.badge-container {
+  margin-bottom: 2rem;
 }
