@@ -23,13 +23,20 @@ module.exports = merge(common, {
           'style-loader', //3. Inject styles into DOM
           'css-loader', //2. Turns css into commonjs
           'sass-loader',
-          'file-loader?name=[path][name].[ext]',
         ],
       },
       {
         test: /\.pdf$/,
-        use: 'file-loader?name=[path][name].[ext]',
-        include: paths
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+            options: '[name].[ext]'
+            }
+          }
+          
+          
+        ]
       }
     ]
   }
