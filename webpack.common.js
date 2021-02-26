@@ -1,4 +1,6 @@
 const Webpack = require("webpack");
+
+
 module.exports = {
   entry: {
     vendor: "./src/vendor.js",
