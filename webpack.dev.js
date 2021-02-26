@@ -32,7 +32,7 @@ module.exports = merge(common, {
             loader: 'file-loader',
             options: {
             name: '[name].[ext]',
-            outputPath: 'assets'
+            outputPath: './assets'
             }
           }
           
