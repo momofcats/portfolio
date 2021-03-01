@@ -36,7 +36,7 @@ module.exports = merge(common, {
     }),
     new CopyPlugin({
       patterns: [
-        { from: "public", to: "dist" },
+        { from: "public", to: path },
       ],
     })
   ],
